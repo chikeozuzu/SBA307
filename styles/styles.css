@@ -1,0 +1,58 @@
+/* The below is the styling for the general layout and design of all the pages of the SBA307 website. */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fd0324;
+}
+
+li {
+  float: left;
+  border-right: 2px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #514a4a;
+}
+
+.active {
+  background-color: forestgreen;
+}
+.contact-us {
+   height: 1em;
+   margin-right: 0.5em;
+   vertical-align: bottom;
+}
+body{
+    background-color: lightgray;
+}
+#footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #fd0324;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* The below is the styling for the index/home pages of the SBA307 website. */
+#header {
+    text-align: center;
+    padding: 20px;
+    background-color: forestgreen;
+    color: white;
+    border: 2px solid black;
+}
