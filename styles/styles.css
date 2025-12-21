@@ -22,13 +22,14 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: background-color 0.3s;
 }
 
-nav li a:hover:not(.active) {
+nav li a:hover {
     background-color: #514a4a;
 }
 
-.active {
+nav li a:focus{
     background-color: forestgreen;
 }
 
@@ -71,7 +72,7 @@ body {
     flex-grow: 1;
 }
 
-/* The below is the styling for the index/home pages of the SBA307 website. */
+/* The below is the styling for the index/home page of the SBA307 website. */
 .index-content aside {
     float: right;
     width: 45%;
@@ -85,7 +86,7 @@ body {
     padding: 10px;
 }
 
-/* The below is the styling for the index/home pages of the SBA307 website. */
+/* The below is the styling for the recipe page of the SBA307 website. */
 .recipe-content {
     margin-left: 20px;
     padding: 10px;
