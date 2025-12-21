@@ -1,5 +1,5 @@
 /* The below is the styling for the general layout and design of all the pages of the SBA307 website. */
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -7,16 +7,16 @@ ul {
     background-color: #fd0324;
 }
 
-li {
+nav li {
     float: left;
     border-right: 2px solid #bbb;
 }
 
-li:last-child {
+nav li:last-child {
     border-right: none;
 }
 
-li a {
+nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -24,7 +24,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+nav li a:hover:not(.active) {
     background-color: #514a4a;
 }
 
@@ -83,4 +83,21 @@ body {
 .index-content {
     margin-left: 20px;
     padding: 10px;
+}
+
+/* The below is the styling for the index/home pages of the SBA307 website. */
+.recipe-content {
+    margin-left: 20px;
+    padding: 10px;
+}
+.recipe-content h2 {
+    text-align: center;
+}
+.recipe-content aside {
+    float: right;
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: white;
 }
